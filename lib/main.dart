@@ -32,6 +32,7 @@ void main() async {
   AppConstants.userToken =
       await CacheHelper.getSecuredString(key: CacheKeys.userToken);
   logSuccess("User Token : ${AppConstants.userToken}");
+  logSuccess("User Token : ${AppConstants.userToken}");
 
   runApp(
     Phoenix(
